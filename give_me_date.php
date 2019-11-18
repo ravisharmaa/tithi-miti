@@ -53,7 +53,7 @@ foreach ($nepaliDateData as $date) {
               $date['month'] = $months[$date['month']];
               break;
         }
-        $monthNumber = empty($monthIndex)?array_search($date['month'], $months):$monthIndex;
+        $monthNumber = empty($monthNumber)?array_search($date['month'], $months):$monthIndex;
         $sql = /**@lang sql **/
         "insert into `monthly_data` (
           nepali_month,
