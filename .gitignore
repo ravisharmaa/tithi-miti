@@ -1,0 +1,9 @@
+css/*
+fonts/*
+images/*
+js
+vendor/*
+.php_cs.cache
+index.php
+dataset.json
+.idea/
